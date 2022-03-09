@@ -1,0 +1,35 @@
+.grid {
+  display: grid;
+  grid-template-areas:
+    "head head"
+    "menu main"
+    "foot foot";
+  grid-column-gap: 100px;
+  grid-row-gap: 10px;
+}
+
+.a {
+  grid-area: head;
+}
+.b {
+  grid-area: menu;
+}
+.c {
+  grid-area: main;
+}
+.d {
+  grid-area: foot;
+  background: orange;
+}
+
+.center {
+    margin:10px auto;
+    display:block;
+}
+
+p{
+    text-align: justify;
+}
+
+
+
